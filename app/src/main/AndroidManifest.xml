@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.india.myproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/adb"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second"
+            android:label="SignUp"/>
+        <activity android:name=".Third"
+            android:label="HomePage"/>
+        <activity android:name=".Music"
+            android:label="MediaPlayer"/>
+        <activity android:name=".Calculator"
+            android:label="Caculator"/>
+        <activity android:name=".Camera"
+            android:label="Camera"/>
+        <activity android:name=".Magical"
+            android:label="Magical"/>
+        <activity android:name=".Quiz1"
+            android:label="Q1"/>
+        <activity android:name=".Quiz2"
+            android:label="Q2"/>
+        <activity android:name=".Quiz3"
+            android:label="Q3"/>
+        <activity android:name=".Quiz4"
+            android:label="Q4"/>
+        <activity android:name=".Quiz5"
+            android:label="Q5"/>
+        <activity android:name=".Quiz6"
+            android:label="Result"/>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Fourth"
+            android:label="Special"/>
+        <activity android:name=".Gravity"
+            android:label="Gravity"></activity>
+    </application>
+
+</manifest>
